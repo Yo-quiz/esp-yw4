@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yo-quiz 4 (Español)</title>
+    <!-- Frase de autor en la esquina superior derecha -->
+<div style="position: absolute; top: 10px; right: 10px; font-size: 14px; z-index: 1000;">
+    <p style="margin: 0;">
+        Hecho por 
+        <a href="https://x.com/salty_baconV2" target="_blank" style="text-decoration: none; color: #007bff;">
+            @salty_baconV2
+        </a>
+    </p>
+</div>
+    <style>
+         body {
+            background: url('background.png') no-repeat center center fixed; /* Imagen de fondo */
+            background-size: cover;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .quiz-title h1 {
+            text-align: center;
+            color: black;
+            padding: 1px;
+            font-size: 50px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .yo-kai-icons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .yo-kai-icons img {
+            width: 50px;
+            height: 50px;
+            margin: 3px;
+            transition: transform 0.3s ease; /* Transición suave */
+        }
+
+        input {
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .info p {
+            color: black;
+            font-size: 30px;
+            margin-top: 10px;
+        }
+
+        /* Animación de aparición y reducción de tamaño */
+        @keyframes appearAndShrink {
+            0% {
+                transform: scale(1.5); /* Más grande */
+                opacity: 1; /* Totalmente visible */
+            }
+            100% {
+                transform: scale(1); /* Tamaño normal */
+                opacity: 1; /* Mantener visibilidad */
+            }
+        }
+
+        /* Clase para activar la animación */
+        .yokai-unlocked {
+            animation: appearAndShrink 0.5s ease-in-out; /* Duración y suavidad */
+            z-index: 10; /* Asegura que esté encima durante la animación */
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-title">
+        <h1>Quiz de Yo-kai Watch 4 (Switch)</h1>
+    </div>
+    <div class="container">
+        <div class="yo-kai-icons">
+            <img id="yo-kai1" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai2" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai3" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai4" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai5" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai6" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai7" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai8" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai9" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai10" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai11" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai12" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai13" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai14" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai15" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai16" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai17" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai18" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai19" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai20" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai21" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai22" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai23" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai24" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai25" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai26" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai27" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai28" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai29" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai30" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai31" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai32" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai33" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai34" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai35" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai36" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai37" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai38" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai39" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai40" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai41" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai42" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai43" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai44" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai45" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai46" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai47" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai48" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai49" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai50" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai51" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai52" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai53" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai54" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai55" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai56" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai57" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai58" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai59" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai60" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai61" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai62" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai63" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai64" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai65" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai66" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai67" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai68" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai69" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai70" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai71" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai72" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai73" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai74" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai75" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai76" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai77" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai78" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai79" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai80" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai81" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai82" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai83" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai84" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai85" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai86" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai87" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai88" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai89" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai90" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai91" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai92" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai93" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai94" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai95" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai96" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai97" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai98" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai99" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai100" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai101" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai102" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai103" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai104" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai105" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai106" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai107" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai108" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai109" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai110" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai111" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai112" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai113" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai114" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai115" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai116" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai117" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai118" src="No-kai4.png" alt="No-kai4">
+            <img id="yo-kai119" src="No-kai4.png" alt="No-kai4">
+
+
+ </div>
+
+        <input type="text" id="answer-input" placeholder="Escribe el nombre del Yo-kai">
+        <div class="info">
+            <p>Tiempo: <span id="time">00:00:00</span></p>
+            <p>Puntuación: <span id="score">0</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
