@@ -1,6 +1,5 @@
 // Lista completa de Yo-kai con sus nombres e imágenes
 const yoKaiList = [
-  [
   { "name": "Jabow", "img": "Jabow.png" },
   { "name": "Shirokuma", "img": "Shirokuma.png" },
   { "name": "Punkupine", "img": "Punkupine.png" },
