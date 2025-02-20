@@ -117,7 +117,6 @@ const yoKaiList = [
   { "name": "Byakko", "img": "Byakko_C.png" },
   { "name": "Souryuu", "img": "Souryuu.png" },
   { "name": "Gunshin Susanoo", aliases: ["Gunshin Susanoo", "Susanoo"], "img": "Gunshin_Susanoo.png" }
-
 ];
 
 let score = 0; 
