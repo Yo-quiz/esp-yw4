@@ -49,7 +49,7 @@ const yoKaiList = [
   { "name": "Kantaro", aliases: ["Kantaro", "Jihanki"], "img": "Kantaro.gif" },
   { "name": "Tidynator", aliases: ["Tidynator", "Robonyan 00"], "img": "Tidynator.gif" },
   { "name": "Kiborikkuma", aliases: ["Kiborikkuma", "Onikuma"], "img": "Kiborikkuma.gif" },
-  { "name": "Junior", aliases: ["Juniot", "Burning Dragon"], "img": "Junior.gif" },
+  { "name": "Junior", aliases: ["Junior", "Burning Dragon"], "img": "Junior.gif" },
   { "name": "Whisper", "img": "Whisper_2040.png" },
   { "name": "Sly", aliases: ["Sly", "Slimamander", "Super Sly", "Mitsumata Ghidorah"], "img": "Sly.gif" },
   { "name": "Becchan", aliases: ["Becchan", "Nuttarabeccha"], "img": "Becchan.gif" },
