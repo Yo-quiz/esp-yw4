@@ -67,7 +67,7 @@ const yoKaiList = [
   { "name": "Yamanbaa", aliases: ["Yamanbaa", "Yamambaa"], "img": "Yamanbaa.png" },
   { "name": "Kenshin Amaterasu", aliases: ["Kenshin Amaterasu", "Amaterasu"], "img": "Kenshin_Amaterasu.png" },
   { "name": "Suu-San", "img": "Suu-San.png" },
-  { "name": "Nomi", aliases: ["Nomi", "Zashiki-warashi", "Tengu'ou Kurama"], "img": "Gnomey.png" },
+  { "name": "Nomi", aliases: ["Nomi", "Zashiki-warashi", "Tengu'ou Kurama"], "img": "Gnomey.gif" },
   { "name": "Yamanbaa", aliases: ["Yamanbaa", "Yamambaa"], "img": "Yamanbaa_LS.png" },
   { "name": "Kukuri-Hime", "img": "Kukuri-Hime.png" },
   { "name": "Gesshin Tsukuyomi", aliases: ["Gesshin Tsukuyomi", "Tsukuyomi"], "img": "Gesshin_Tsukuyomi.png" },
