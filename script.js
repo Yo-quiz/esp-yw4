@@ -90,7 +90,7 @@ const yoKaiList = [
   { "name": "Babamandra", "img": "Babamandra_SS.png" },
   { "name": "Medamanbou", aliases: ["Medamanbou", "Ojo de Babamandra"], "img": "Medamanbou.png" },    
   { "name": "Jingeki", "img": "Jingeki.png" },
-  { "name": "Yamanbaa", aliases: ["Yamanbaa", "Yamambaa"], "img": "Yamamnbaa_Boss.png" },
+  { "name": "Yamanbaa", aliases: ["Yamanbaa", "Yamambaa"], "img": "Yamanbaa_Boss.png" },
   { "name": "Shinmagunshin Fukurou", aliases: ["Shinmagunshin Fukurou", "Fukurou Corrupto"], "img": "Shinmagunshin_Fukurou.png" },
   { "name": "Lady Aracne", "img": "Lady_Aracne.png" },
   { "name": "Tamamo-no-mae", "img": "Tamamo-no-mae.png" },
