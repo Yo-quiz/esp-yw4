@@ -161,7 +161,7 @@ function checkAnswer() {
         // Si la respuesta coincide con alguno de los nombres y no ha sido desbloqueado
         if (normalizedNames.includes(userAnswer) && !unlockedYoKai.has(index)) {
             const yoKaiImg = document.getElementById(`yo-kai${index + 1}`);
-            if (yoKaiImg && yoKaiImg.src.includes("no-kai.png")) {
+            if (yoKaiImg && yoKaiImg.src.includes("No-kai4.png")) {
                 yoKaiImg.src = yoKai.img; // Actualiza la imagen
 
                 // Añadir clase para animación
