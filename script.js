@@ -96,7 +96,7 @@ const yoKaiList = [
   { "name": "Tamamo-no-mae", "img": "Tamamo-no-mae.png" },
   { "name": "Shinma Voidera", aliases: ["Shinma Voidera", "Shinma Douketsu", "Voidera Corrupto"], "img": "Voidera_Boss.png" },
   { "name": "Shien", "img": "Shien.png" },
-  { "name": "Shinma Ananta", aliases: ["Ananta Oscuro", "Shinma Ananta", "Shinma Kaira"], "img": "Ananta_Boss.png" },
+  { "name": "Shinma Ananta", aliases: ["Shinma Ananta", "Shinma Kaira"], "img": "Ananta_Boss.png" },
   { "name": "Overseer", "img": "Overseer.png" },
   { "name": "Maten Overseer", aliases: ["Maten Overseer", "Maten Soranaki"], "img": "Maten_Overseer.png" },
   { "name": "Raidenryu", "img": "Raidenryu.png" },
