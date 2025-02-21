@@ -18,7 +18,7 @@ const yoKaiList = [
   { "name": "Flamileon", "img": "Flamileon.gif" },
   { "name": "Itashikatanashi", aliases: ["Itashikatanashi", "Yamuwoen"], "img": "Itashikatanashi.gif" },
   { "name": "Saya", aliases: ["Saya", "Makenki"], "img": "Saya.gif" },
-  { "name": "Papa Rayo", "img": "Papa-Rayo.gif" },
+  { "name": "Papa Rayo", "img": "Papa_Rayo.gif" },
   { "name": "Venocto", "img": "Venocto.gif" },
   { "name": "Venoctoscuro", "img": "Venoctoscuro.gif" },
   { "name": "Shogunyan", "img": "Shogunyan.gif" },
